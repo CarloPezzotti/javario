@@ -27,7 +27,7 @@ public class Config {
      * Field
      */
     public static int MINIMAP_ZOOM = 4;
-    public static int FIELD_WIDTH = 1000;
+    public static int FIELD_WIDTH = 2000;
     public static int FIELD_HEIGHT = 1000;
 
     /**

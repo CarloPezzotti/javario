@@ -76,7 +76,7 @@ public class GamePanel extends JPanel implements ProtocolManagerListener {
                 }
             }
             mm.paint(g);
-            leaderboard.setLocation(this.getWidth()-leaderboard.getWidth(), 0);      
+            leaderboard.setLocation(this.getWidth()-leaderboard.getWidth()-20, 20);      
             leaderboard.paint(g);
         } else {
             g.setColor(Color.BLACK);
@@ -86,7 +86,7 @@ public class GamePanel extends JPanel implements ProtocolManagerListener {
         
         
         
-        
+        /*
         if(mouse != null)
         {
             g.setColor(Color.BLACK);
@@ -106,7 +106,7 @@ public class GamePanel extends JPanel implements ProtocolManagerListener {
             int ch = getHeight() / 2;
             g.setColor(Color.RED);
             g.drawLine(cw, ch, cw + nextX, ch + nextY);
-        }
+        }*/
         mm.setLocation(20,20);
     }
 

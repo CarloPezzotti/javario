@@ -44,7 +44,7 @@ public class Leaderboard extends JPanel {
                     g.drawString(
                             p.getId() + ":" + p.getPoints(),
                             this.getX()+5,
-                            this.getY() + 10 + (int) (g.getFontMetrics().getStringBounds(p.getId() + ":" + p.getPoints(), g)).getHeight() * i
+                            (this.getY() + 10 + (int) (g.getFontMetrics().getStringBounds(p.getId() + ":" + p.getPoints(), g)).getHeight() * i)+5
                     );
                     i++;
                 }
